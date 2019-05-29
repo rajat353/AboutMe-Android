@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A03"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:text="About Me"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="C"
+        android:textColor="#BB0342"
+        android:textSize="30sp" />
+
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CB1D1A1A">
+
+            <RadioButton
+                android:id="@+id/rg11"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                app:buttonTint="#FFFFFF"
+                android:text="1"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg12"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                app:buttonTint="#FFFFFF"
+                android:text="2"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg13"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                app:buttonTint="#FFFFFF"
+                android:text="3"
+                android:checked="true"
+                android:textColor="#FDFDFE" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="C++"
+        android:textColor="#BB0342"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CB1D1A1A">
+
+            <RadioButton
+                android:id="@+id/rg21"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                app:buttonTint="#FFFFFF"
+                android:text="1"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg22"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                app:buttonTint="#FFFFFF"
+                android:layout_marginLeft="80dp"
+                android:text="2"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg23"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                app:buttonTint="#FFFFFF"
+                android:checked="true"
+                android:layout_marginLeft="80dp"
+                android:text="3"
+                android:textColor="#FDFDFE" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Android"
+        android:textColor="#BB0342"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CB1D1A1A">
+
+            <RadioButton
+                android:id="@+id/rg31"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="1"
+                app:buttonTint="#FFFFFF"
+                android:checked="true"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg32"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                app:buttonTint="#FFFFFF"
+                android:text="2"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg33"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                app:buttonTint="#FFFFFF"
+                android:layout_marginLeft="80dp"
+                android:text="3"
+
+                android:textColor="#FDFDFE" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Java"
+        android:textColor="#BB0342"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#CB1D1A1A">
+
+
+            <RadioButton
+                android:id="@+id/rg41"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                app:buttonTint="#FFFFFF"
+                android:layout_marginLeft="30dp"
+                android:text="1"
+                android:checked="true"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg42"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                app:buttonTint="#FFFFFF"
+                android:text="2"
+                android:textColor="#FDFDFE" />
+
+            <RadioButton
+                android:id="@+id/rg43"
+                style="@android:style/Widget.Holo.Light.CompoundButton.RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginLeft="80dp"
+                app:buttonTint="#FFFFFF"
+                android:text="3"
+                android:textColor="#FDFDFE" />
+    </RadioGroup>
+
+
+</LinearLayout>
