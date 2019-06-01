@@ -15,7 +15,6 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -27,7 +26,32 @@
             android:textColor="#FFFFFF"
             android:textSize="40sp" />
 
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#CB1D1A1A"
+            android:hint="Enter Your Name"
+            android:maxLength="30"
+            android:paddingLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#837D7D"
+            android:textSize="25dp" />
 
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#CB1D1A1A"
+            android:hint="Enter Your Enrollment No."
+            android:inputType="number"
+            android:maxLength="8"
+            android:paddingLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#837D7D"
+            android:textSize="25dp" />
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
@@ -300,5 +324,15 @@
                 android:text="3"
                 android:textColor="#FDFDFE" />
         </RadioGroup>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:onClick="submitResponce"
+            android:text="Submit"
+            android:layout_marginBottom="15dp"/>
     </LinearLayout>
 </ScrollView>
